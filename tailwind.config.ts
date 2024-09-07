@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      container: {
+        padding: "20px",
+        center: true,
+        screens: {
+          lg: "1440px",
+        },
+      }
     },
   },
   plugins: [],
